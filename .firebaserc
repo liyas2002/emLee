@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "emlee-f9fd5"
+  },
+  "targets": {
+    "emlee-f9fd5": {
+      "hosting": {
+        "emlee": [
+          "emlee"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

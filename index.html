@@ -142,7 +142,7 @@ body{background:radial-gradient(circle at 50% -10%,rgba(155,108,255,.12),transpa
 .chat-list-item{background:rgba(255,255,255,.045);border-color:rgba(255,255,255,.1);backdrop-filter:blur(12px)}
 .profile-save-btn{margin-top:12px}.profile-logout-btn{width:100%;margin-top:9px;padding:10px 12px;border:1px solid rgba(255,255,255,.1);border-radius:12px;background:rgba(255,255,255,.04);color:#b9aebe;font-size:10px;font-weight:800}.profile-save-status{min-height:18px;text-align:center;color:#8ff0c1;font-size:10px;font-weight:800;opacity:0;transition:.2s;padding-top:6px}.profile-save-status.show{opacity:1}
 @media(max-width:700px){.container{padding:12px 12px 40px}.hero{min-height:470px;padding:28px 20px 24px}.hero-content{max-width:72%}.feature-launcher{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;padding:8px;border-radius:21px}.feature-tile.glass-feature{min-height:96px;gap:7px;padding:9px;border-radius:16px}.feature-icon{width:45px;height:45px;flex-basis:45px;border-radius:14px;font-size:21px}.feature-name{font-size:10px}.feature-sub{font-size:7px}.feature-arrow{font-size:23px}.brand{font-size:25px}.nav-chat,.nav-rank,.nav-profile{padding:0 8px;font-size:9px}}
-@media(max-width:430px){.hero{min-height:440px}.hero-content{max-width:100%}.hero h1{font-size:58px}.creator-row{flex-direction:row;align-items:center}.feature-launcher{gap:5px;padding:7px}.feature-tile.glass-feature{min-height:90px;padding:7px}.feature-icon{width:38px;height:38px;flex-basis:38px}.feature-copy{overflow:hidden}.feature-name{font-size:9px}.feature-sub{font-size:6.5px}.feature-arrow{font-size:20px}.nav-rank .rank-number{display:none}.nav-chat{font-size:0}.nav-chat .chat-nav-badge{font-size:8px}.nav-chat::before{content:"💬";font-size:15px}}
+@media(max-width:430px){.hero{min-height:440px}.hero-content{max-width:100%}.hero h1{font-size:58px}.creator-row{flex-direction:row;align-items:center}.feature-launcher{gap:5px;padding:7px}.feature-tile.glass-feature{min-height:90px;padding:7px}.feature-icon{width:38px;height:38px;flex-basis:38px}.feature-copy{overflow:hidden}.feature-name{font-size:9px}.feature-sub{font-size:6.5px}.feature-arrow{font-size:20px}.nav-rank .rank-number{display:none}.nav-chat{font-size:0}.nav-chat .chat-nav-badge{font-size:8px}.nav-chat::before{content:"<span class="ui-icon ui-i-chat"></span>";font-size:15px}}
 
 .auth-field{margin-top:9px}.auth-switch{margin-top:12px;border:0;background:transparent;color:#e9b6dc;font-size:11px;text-decoration:underline;text-underline-offset:3px}.entry-error{display:none;color:#ff8dbd;font-size:11px;text-align:left;margin-top:8px}.entry-box .entry-input{display:block;margin-top:9px}.entry-box #usernameInput{margin-top:0}
 
@@ -219,9 +219,36 @@ body[data-page="live"] .live-message{max-width:94%;}
 .admin-launch{display:none}.ecosystem-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.eco-card{padding:15px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(145deg,#1d1427,#100a16);color:#fff;text-align:left}.eco-card b{display:block;font-size:12px}.eco-card span{display:block;color:var(--muted);font-size:9px;margin-top:5px}.dashboard-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.metric{padding:14px;border:1px solid var(--line);border-radius:17px;background:#ffffff06}.metric small{display:block;color:var(--muted);font-size:9px}.metric strong{display:block;font-size:22px;margin-top:4px}.status-row{display:flex;justify-content:space-between;gap:8px;padding:11px 0;border-bottom:1px solid var(--line);font-size:11px}.status-row:last-child{border-bottom:0}.ok{color:var(--green)}.bad{color:#ff718b}.admin-nav{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:10px 0}.admin-nav button,.pill-btn{padding:10px;border:1px solid var(--line);border-radius:12px;background:#ffffff07;color:#ddd;font-size:10px}.chart{height:150px;width:100%;display:block}.settings-grid{display:grid;gap:10px}.settings-grid label{font-size:10px;color:var(--muted)}.settings-grid input,.settings-grid select,.settings-grid textarea{width:100%;padding:11px;border:1px solid var(--line);border-radius:12px;background:#ffffff08;color:#fff;outline:0}.switch{display:flex;align-items:center;justify-content:space-between;padding:11px;border:1px solid var(--line);border-radius:14px}.switch input{width:20px;height:20px}.follow-bar{display:flex;gap:8px;align-items:center;margin-top:10px}.follow-btn{flex:1;padding:11px;border-radius:12px;border:1px solid #ff5bbd45;background:#ff5bbd12;color:#ff9bda;font-weight:800}.follow-btn.following{background:#ffffff08;color:#ddd;border-color:var(--line)}.follow-counts{display:flex;gap:18px;margin-top:10px;font-size:10px;color:var(--muted)}.follow-counts b{color:#fff;font-size:13px}.list-row{display:flex;align-items:center;gap:10px;padding:11px;border:1px solid var(--line);border-radius:14px;background:#ffffff05;margin-bottom:8px}.list-row img{width:38px;height:38px;border-radius:50%;object-fit:cover}.list-row strong{font-size:11px}.list-row small{display:block;color:var(--muted);font-size:8px;margin-top:2px}
 /* community suggestions */
 .suggest-card{margin:12px 0;padding:14px;border:1px solid #ff5bbd24;border-radius:20px;background:linear-gradient(145deg,rgba(255,91,189,.07),rgba(155,108,255,.045));}
-.suggest-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}.suggest-head h2{margin:0;font-size:15px}.suggest-head span{color:var(--muted);font-size:9px}.suggest-list{display:grid;gap:8px}.suggest-row{display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;align-items:center;gap:9px;padding:9px;border:1px solid var(--line);border-radius:15px;background:#ffffff05}.suggest-row .suggest-avatar{display:block!important;width:42px!important;height:42px!important;min-width:42px!important;max-width:42px!important;min-height:42px!important;max-height:42px!important;aspect-ratio:1/1!important;flex:none!important;object-fit:cover!important;border-radius:13px!important;cursor:pointer!important;overflow:hidden!important}.suggest-user{min-width:0;text-align:left;cursor:pointer;background:none;border:0;color:#fff;padding:0}.suggest-user strong{display:block;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.suggest-user small{display:block;color:var(--muted);font-size:8px;margin-top:3px}.suggest-action{border:1px solid #ff5bbd45;border-radius:10px;padding:8px 10px;font-size:8px;font-weight:900;white-space:nowrap;cursor:pointer;background:#ff5bbd18;color:#ff9bda}.suggest-action.following{background:#8d72ff18;border-color:#8d72ff45;color:#c7b8ff}.suggest-action.message{background:#ffffff08;border-color:var(--line);color:#ddd}.suggest-empty{padding:12px;text-align:center;color:var(--muted);font-size:10px}
+.suggest-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}.suggest-head h2{margin:0;font-size:15px}.suggest-head span{color:var(--muted);font-size:9px}.suggest-list{display:grid;gap:8px}.suggest-row{display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;align-items:center;gap:9px;padding:9px;border:1px solid var(--line);border-radius:15px;background:#ffffff05}.suggest-row .suggest-avatar{width:42px;height:42px;border-radius:13px;object-fit:cover;cursor:pointer}.suggest-user{min-width:0;text-align:left;cursor:pointer;background:none;border:0;color:#fff;padding:0}.suggest-user strong{display:block;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.suggest-user small{display:block;color:var(--muted);font-size:8px;margin-top:3px}.suggest-action{border:1px solid #ff5bbd45;border-radius:10px;padding:8px 10px;font-size:8px;font-weight:900;white-space:nowrap;cursor:pointer;background:#ff5bbd18;color:#ff9bda}.suggest-action.following{background:#8d72ff18;border-color:#8d72ff45;color:#c7b8ff}.suggest-action.message{background:#ffffff08;border-color:var(--line);color:#ddd}.suggest-empty{padding:12px;text-align:center;color:var(--muted);font-size:10px}
 .notif-dot{display:inline-flex;min-width:17px;height:17px;border-radius:50%;align-items:center;justify-content:center;background:var(--pink);font-size:8px;font-weight:900}.game-live-card{border:1px solid #ff5bbd2b;background:linear-gradient(145deg,#24142d,#120a18);padding:14px;border-radius:18px}.game-live-card h3{margin:0;font-size:12px}.game-live-card p{margin:5px 0 0;color:var(--muted);font-size:10px}.content-item{padding:12px;border:1px solid var(--line);border-radius:14px;margin-bottom:8px;background:#ffffff05;font-size:11px;line-height:1.45}.content-item b{display:block;color:#ff9bda;font-size:9px;text-transform:uppercase;margin-bottom:5px}.pwa-note{padding:12px;border-radius:14px;background:#ff5bbd0b;border:1px solid #ff5bbd25;color:#d9cbe0;font-size:10px;line-height:1.5}
 @media(min-width:700px){.ecosystem-grid{grid-template-columns:repeat(4,1fr)}.dashboard-grid{grid-template-columns:repeat(4,1fr)}}
+
+/* emLee icon system: no keyboard emojis */
+.ui-icon{display:inline-block;width:1.05em;height:1.05em;flex:0 0 1.05em;vertical-align:-.16em;background:currentColor;-webkit-mask:var(--icon) center/contain no-repeat;mask:var(--icon) center/contain no-repeat}
+.ui-icon.lg{width:1.25em;height:1.25em;flex-basis:1.25em}.nav-suggest{position:relative;display:flex;align-items:center;justify-content:center;min-width:42px;height:42px;padding:0 10px;border:1px solid var(--line);background:#ffffff07;border-radius:13px;color:#ddd}.nav-suggest:hover{border-color:#ff5bbd55;color:#fff}
+.ui-i-chat{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4%204h16a2%202%200%200%201%202%202v9a2%202%200%200%201-2%202H9l-5%204v-4H4a2%202%200%200%201-2-2V6a2%202%200%200%201%202-2Z"/></svg>");}
+.ui-i-userplus{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15%2021v-2a4%204%200%200%200-4-4H6a4%204%200%200%200-4%204v2M8.5%2011a4%204%200%201%200%200-8%204%204%200%200%200%200%208ZM19%208v6M16%2011h6"/></svg>");}
+.ui-i-bell{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18%208a6%206%200%200%200-12%200c0%207-3%207-3%209h18c0-2-3-2-3-9M10%2021h4"/></svg>");}
+.ui-i-rank{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7%2020h10M9%2020V10h6v10M12%2010V4M5%2010h14M6%204h12l-2%204H8L6%204Z"/></svg>");}
+.ui-i-game{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6%209h12a5%205%200%200%201%204%208l-1%202a2%202%200%200%201-3%201l-3-3H9l-3%203a2%202%200%200%201-3-1l-1-2a5%205%200%200%201%204-8Z"/></svg>");}
+.ui-i-brain{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9%204a3%203%200%200%200-3%203%203%203%200%200%200-2%205%203%203%200%200%200%202%203v2a3%203%200%200%200%203%203h1V4H9Zm6%200a3%203%200%200%201%203%203%203%203%200%200%201%202%205%203%203%200%200%201-2%203v2a3%203%200%200%201-3%203h-1V4h1ZM9%208h2m-2%204h2m2-4h2m-2%204h2"/></svg>");}
+.ui-i-coin{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12%203c5%200%208%202%208%205v8c0%203-3%205-8%205s-8-2-8-5V8c0-3%203-5%208-5Zm0%200v18M4%208c0%203%203%205%208%205s8-2%208-5"/></svg>");}
+.ui-i-target{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12%202a10%2010%200%201%200%2010%2010M12%206a6%206%200%201%200%206%206M12%2010a2%202%200%201%200%202%202"/></svg>");}
+.ui-i-wheel{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12%202v20M2%2012h20M4.9%204.9l14.2%2014.2M19.1%204.9%204.9%2019.1M12%207a5%205%200%201%200%200%2010%205%205%200%200%200%200-10Z"/></svg>");}
+.ui-i-jackpot{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6%203h12v4H6zM4%207h16v12H4zM8%2011h8M8%2015h8"/></svg>");}
+.ui-i-letters{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4%205h16M4%2012h10M4%2019h16M17%209l3%203-3%203"/></svg>");}
+.ui-i-star{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12%202l2.9%206%206.6.9-4.8%204.5%201.2%206.5-5.9-3.2-5.9%203.2%201.2-6.5-4.8-4.5%206.6-.9L12%202Z"/></svg>");}
+.ui-i-spark{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12%202l1.5%207%207%201.5-7%201.5-1.5%207-1.5-7-7-1.5%207-1.5L12%202ZM19%2016l.8%202.2L22%2019l-2.2.8L19%2022l-.8-2.2L16%2019l2.2-.8L19%2016Z"/></svg>");}
+.ui-i-moon{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20%2015.5A8%208%200%200%201%208.5%204%208%208%200%201%200%2020%2015.5Z"/></svg>");}
+.ui-i-fire{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12%2022a7%207%200%200%200%206-7c0-4-3-6-4-10-3%202-5%205-4%208-2-1-3-3-2-6-3%202-4%205-4%208a8%208%200%200%200%208%207Z"/></svg>");}
+.ui-i-gift{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4%2010h16v11H4zM2%207h20v3H2zM12%207v14M12%207H8a2.5%202.5%200%201%201%202.5-2.5C10.5%206%2012%207%2012%207Zm0%200h4a2.5%202.5%200%201%200-2.5-2.5C13.5%206%2012%207%2012%207Z"/></svg>");}
+.ui-i-heart{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8%208.7c0%205-8.8%2010.3-8.8%2010.3S3.2%2013.7%203.2%208.7A4.7%204.7%200%200%201%2012%206.1a4.7%204.7%200%200%201%208.8%202.6Z"/></svg>");}
+.ui-i-doc{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6%203h9l4%204v14H6zM15%203v5h5M9%2012h6M9%2016h6"/></svg>");}
+.ui-i-arrow{--icon:url("data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5%2012h13M13%206l6%206-6%206"/></svg>");}
+
+.suggest-page-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:4px 2px 14px}.suggest-page-head h2{margin:5px 0 3px;font-size:20px}.suggest-page-head p{margin:0;color:var(--muted);font-size:10px}.suggest-page-head>span:last-child{color:var(--muted);font-size:9px}.suggest-page-list{padding-bottom:20px}.suggest-page-list .suggest-row{grid-template-columns:46px minmax(0,1fr) auto auto;padding:10px}.suggest-page-list .suggest-avatar{width:44px;height:44px;border-radius:50%;object-fit:cover;display:block}.suggest-page-list .suggest-action{min-height:32px}.chat-notification-box{cursor:pointer}.chat-notification-box:empty{display:none!important}
+
+.rank-avatar{width:34px;height:34px;border-radius:50%;object-fit:cover;flex:0 0 34px}.rank-badge,.rank-modal-position{border-radius:9px;padding:4px 5px;font-weight:900}.rank-gold{color:#f7d774;background:rgba(247,215,116,.13);border:1px solid rgba(247,215,116,.28)}.rank-silver{color:#d8dde7;background:rgba(216,221,231,.10);border:1px solid rgba(216,221,231,.24)}.rank-bronze{color:#d99a68;background:rgba(217,154,104,.12);border:1px solid rgba(217,154,104,.26)}.rank-white{color:#fff;background:#fff;border:1px solid #fff}.rank-white{color:#111}.rank-modal-left .rank-avatar{margin-left:2px}
 </style>
 
 <style id="mobile-first-layout">
@@ -294,12 +321,6 @@ body[data-page="emlee"] #chatScreen .feature-back,body[data-page="live"] #liveCh
 .own-follow-counts strong{font-size:16px;color:#ff9bda;}
 .own-follow-counts span{font-size:9px;color:var(--muted);margin-top:3px;}
 </style>
-<style id="suggest-avatar-fix">
-/* only fix: suggestion avatars */
-.suggest-row{min-width:0;overflow:hidden;}
-.suggest-row .suggest-avatar{display:block!important;width:42px!important;height:42px!important;min-width:42px!important;min-height:42px!important;max-width:42px!important;max-height:42px!important;flex:none!important;object-fit:cover!important;object-position:center!important;border-radius:13px!important;}
-.suggest-row .suggest-user{min-width:0!important;overflow:hidden!important;}
-</style>
 </head>
 <body data-page="home">
 
@@ -330,9 +351,9 @@ body[data-page="emlee"] #chatScreen .feature-back,body[data-page="live"] #liveCh
 <nav class="top-nav">
   <div class="brand" onclick="secretEmLee()">em<span>Lee</span></div>
   <div class="nav-actions">
-    <button class="nav-chat" onclick="openFeature('chatListScreen')" title="chats">💬 chat <span class="chat-nav-badge" id="chatNavBadge">0</span></button>
-    <button class="nav-notify" onclick="openNotifications()" title="notifications" aria-label="notifications">🔔 <span class="notify-badge" id="notifyBadge">0</span></button>
-    <button class="nav-rank rank-click" onclick="openRankModal()">🏆 rank <span class="rank-number" id="topRank">#—</span></button>
+    <button class="nav-chat" onclick="openFeature('chatListScreen')" title="messages" aria-label="messages"><span class="ui-icon ui-i-chat"></span><span>chat</span><span class="chat-nav-badge" id="chatNavBadge">0</span></button>
+    <button class="nav-suggest" onclick="openFeature('suggestionsScreen')" title="suggestions" aria-label="suggestions"><span class="ui-icon ui-i-userplus"></span></button>
+    <button class="nav-rank rank-click" onclick="openRankModal()"><span class="ui-icon ui-i-rank"></span><span>rank</span> <span class="rank-number" id="topRank">#—</span></button>
     <button class="nav-profile" onclick="openOwnProfile()" title="your profile">
       <img id="topProfilePfp" src="./pfp.JPG" alt="">
       <span>profile</span>
@@ -378,34 +399,30 @@ body[data-page="emlee"] #chatScreen .feature-back,body[data-page="live"] #liveCh
   </button>
 </section>
 
-<section class="suggest-card" id="suggestCard">
-  <div class="suggest-head"><h2>✨ suggest</h2><span id="suggestCount">community</span></div>
-  <div id="suggestList" class="suggest-list"><div class="suggest-empty">loading community...</div></div>
-</section>
 
 <section class="card mood-card">
   <div class="mood-label">emLee's mood today</div>
-  <div class="mood-text" id="dailyMoodText">🌙 soft & sleepy</div>
+  <div class="mood-text" id="dailyMoodText"><span class="ui-icon ui-i-moon"></span> soft & sleepy</div>
   <div class="mood-sub" id="dailyMoodSub">late night energy, calm chats & tiny chaos</div>
 </section>
 
 <section class="card">
-  <div class="section-title"><h2>🪄 mystery daily drop</h2><span id="streakPill" class="streak-pill">🔥 0 day streak</span></div>
+  <div class="section-title"><h2><span class="ui-icon ui-i-spark"></span> mystery daily drop</h2><span id="streakPill" class="streak-pill"><span class="ui-icon ui-i-fire"></span> 0 day streak</span></div>
   <div class="mystery-drop"><div><strong id="dropTitle">today's drop is waiting</strong><span id="dropText">open it once today for a tiny surprise.</span></div><button class="drop-btn" id="dropButton" onclick="claimMysteryDrop()">open</button></div>
 </section>
 
 <section class="card">
-  <div class="section-title"><h2>💫 community moments</h2><span>little emLee things</span></div>
+  <div class="section-title"><h2><span class="ui-icon ui-i-spark"></span> community moments</h2><span>little emLee things</span></div>
   <div class="moment-grid">
-    <div class="moment"><strong>💬 live room</strong><span>everyone can drop in and make the room feel alive.</span></div>
-    <div class="moment"><strong>🎮 game nights</strong><span>play, earn points and climb the community ranks.</span></div>
-    <div class="moment"><strong>🌙 late nights</strong><span>quiet chats, random jokes and relaxing stream energy.</span></div>
-    <div class="moment"><strong>✨ your space</strong><span>your profile, title, rank and memories grow with you.</span></div>
+    <div class="moment"><strong><span class="ui-icon ui-i-chat"></span> live room</strong><span>everyone can drop in and make the room feel alive.</span></div>
+    <div class="moment"><strong><span class="ui-icon ui-i-game"></span> game nights</strong><span>play, earn points and climb the community ranks.</span></div>
+    <div class="moment"><strong><span class="ui-icon ui-i-moon"></span> late nights</strong><span>quiet chats, random jokes and relaxing stream energy.</span></div>
+    <div class="moment"><strong><span class="ui-icon ui-i-spark"></span> your space</strong><span>your profile, title, rank and memories grow with you.</span></div>
   </div>
 </section>
 
 <section class="card">
-  <div class="section-title"><h2>🧠 emLee memories</h2><span>your journey</span></div>
+  <div class="section-title"><h2><span class="ui-icon ui-i-brain"></span> emLee memories</h2><span>your journey</span></div>
   <div class="memory-grid">
     <div class="memory"><b id="memoryDays">1</b><span>days here</span></div>
     <div class="memory"><b id="memoryGames">0</b><span>games played</span></div>
@@ -414,7 +431,7 @@ body[data-page="emlee"] #chatScreen .feature-back,body[data-page="live"] #liveCh
 </section>
 
 <section class="card">
-  <div class="section-title"><h2>🎁 daily reward</h2><span>once a day</span></div>
+  <div class="section-title"><h2><span class="ui-icon ui-i-gift"></span> daily reward</h2><span>once a day</span></div>
   <div class="reward-box">
     <div class="reward-info"><strong>daily community bonus</strong><span>claim your daily points and keep your streak alive.</span></div>
     <button class="claim-btn" id="claimButton" onclick="claimReward()">Claim</button>
@@ -423,17 +440,17 @@ body[data-page="emlee"] #chatScreen .feature-back,body[data-page="live"] #liveCh
 </section>
 
 <section class="card">
-  <div class="section-title"><h2>🏆 leaderboard</h2><span class="rank-click" onclick="openRankModal()">view all →</span></div>
+  <div class="section-title"><h2><span class="ui-icon ui-i-rank"></span> leaderboard</h2><span class="rank-click" onclick="openRankModal()">view all →</span></div>
   <div id="leaderboardList"><div style="text-align:center;color:#817788;font-size:12px;padding:15px">loading ranks...</div></div>
 </section>
 
 <section class="card">
-  <div class="section-title"><h2>✨ emLee</h2><span>community space</span></div>
+  <div class="section-title"><h2><span class="ui-icon ui-i-spark"></span> emLee</h2><span>community space</span></div>
   <p style="color:var(--muted);font-size:12px;line-height:1.7">emLee is the community space around emLee Live — a place for live conversations, games, rewards, rankings and community interaction.</p>
 </section>
 
 <section class="card">
-  <div class="section-title"><h2>📄 information</h2><span>emLee</span></div>
+  <div class="section-title"><h2><span class="ui-icon ui-i-doc"></span> information</h2><span>emLee</span></div>
   <div class="legal">
     <a class="legal-card" href="privacy.html"><strong>Privacy Policy</strong><span>how emLee handles information</span></a>
     <a class="legal-card" href="terms.html"><strong>Terms & Conditions</strong><span>rules for using emLee</span></a>
@@ -448,7 +465,7 @@ body[data-page="emlee"] #chatScreen .feature-back,body[data-page="live"] #liveCh
 <div class="feature-screen" id="chatScreen"><div class="feature-screen-inner">
 <button class="feature-back" onclick="closeFeature('chatScreen')">←</button>
 <section class="card" id="chatSection">
-<div class="section-title"><h2>💬 chat with emLee</h2><span id="chatUser">guest</span></div>
+<div class="section-title"><h2><span class="ui-icon ui-i-chat"></span> chat with emLee</h2><span id="chatUser">guest</span></div>
 <div id="messages"></div>
 <div class="chat-input-group"><button class="chat-bottom-back" type="button" onclick="closeFeature('chatScreen')" aria-label="back to home"></button><input class="chat-input" id="chatInput" type="text" placeholder="message emLee..." autocomplete="off"><button class="send-btn" id="sendButton" onclick="sendMessage()">Send</button></div>
 </section>
@@ -457,20 +474,18 @@ body[data-page="emlee"] #chatScreen .feature-back,body[data-page="live"] #liveCh
 <!-- viewer personal messages -->
 <div class="feature-screen" id="chatListScreen"><div class="feature-screen-inner chat-app-shell">
 <button class="feature-back" onclick="closeFeature('chatListScreen')">←</button>
-<section class="chat-app-head">
-  <div>
-    <span class="chat-app-kicker"><i class="live-dot"></i> emLee community</span>
-    <h2>messages</h2>
-    <p>message people who have joined the emLee community.</p>
-  </div>
-  <span class="chat-online-pill">● online</span>
-</section>
-<div id="chatNotifications" class="chat-notification-box" style="display:none"></div>
+<div id="chatNotifications" class="chat-notification-box" style="display:none" onclick="openNotifications()"></div>
 <section class="card chat-list-card">
-  <div class="section-title"><h2>chats</h2><span id="chatListCount">0</span></div>
+  <div class="section-title"><h2>messages</h2><span id="chatListCount">0</span></div>
   <div id="chatList" class="chat-list"></div>
 </section>
-<section class="chat-app-tip">✨ <strong>private messages</strong> tap a viewer to start chatting.</section>
+</div></div>
+
+<!-- community suggestions -->
+<div class="feature-screen" id="suggestionsScreen"><div class="feature-screen-inner chat-app-shell">
+<button class="feature-back" onclick="closeFeature('suggestionsScreen')">←</button>
+<section class="suggest-page-head"><div><span class="chat-app-kicker"><i class="live-dot"></i> emLee community</span><h2>suggestions</h2><p>discover people and connect.</p></div><span id="suggestCount">community</span></section>
+<section class="suggest-page-list"><div id="suggestList" class="suggest-list"><div class="suggest-empty">loading community...</div></div></section>
 </div></div>
 
 <!-- notifications -->
@@ -515,15 +530,15 @@ body[data-page="emlee"] #chatScreen .feature-back,body[data-page="live"] #liveCh
 <div class="feature-screen" id="gamesScreen"><div class="feature-screen-inner">
 <button class="feature-back" onclick="closeFeature('gamesScreen')">←</button>
 <section class="card">
-<div class="section-title"><h2>🎮 games</h2><span>limited plays</span></div>
+<div class="section-title"><h2><span class="ui-icon ui-i-game"></span> games</h2><span>limited plays</span></div>
 <div class="games-grid">
-<button class="game-btn" onclick="playQuiz()"><span class="game-icon">🧠</span><span class="game-name">Quiz</span><span class="game-limit">2 / day</span></button>
-<button class="game-btn" onclick="playFlip()"><span class="game-icon">🪙</span><span class="game-name">Flip</span><span class="game-limit">3 / day</span></button>
-<button class="game-btn" onclick="playGuess()"><span class="game-icon">🎯</span><span class="game-name">Guess</span><span class="game-limit">2 / day</span></button>
-<button class="game-btn" onclick="spinWheel()"><span class="game-icon">🎡</span><span class="game-name">Race</span><span class="game-limit">1 / day</span></button>
-<button class="game-btn" onclick="playJackpot()"><span class="game-icon">🎰</span><span class="game-name">Jackpot</span><span class="game-limit">1 / day</span></button>
-<button class="game-btn" onclick="playWordChain()"><span class="game-icon">🔤</span><span class="game-name">Word Chain</span><span class="game-limit">2 / day</span></button>
-<button class="game-btn" onclick="playDailyChallenge()"><span class="game-icon">🌟</span><span class="game-name">Daily</span><span class="game-limit">1 / day</span></button>
+<button class="game-btn" onclick="playQuiz()"><span class="game-icon"><span class="ui-icon ui-i-brain"></span></span><span class="game-name">Quiz</span><span class="game-limit">2 / day</span></button>
+<button class="game-btn" onclick="playFlip()"><span class="game-icon"><span class="ui-icon ui-i-coin"></span></span><span class="game-name">Flip</span><span class="game-limit">3 / day</span></button>
+<button class="game-btn" onclick="playGuess()"><span class="game-icon"><span class="ui-icon ui-i-target"></span></span><span class="game-name">Guess</span><span class="game-limit">2 / day</span></button>
+<button class="game-btn" onclick="spinWheel()"><span class="game-icon"><span class="ui-icon ui-i-wheel"></span></span><span class="game-name">Race</span><span class="game-limit">1 / day</span></button>
+<button class="game-btn" onclick="playJackpot()"><span class="game-icon"><span class="ui-icon ui-i-jackpot"></span></span><span class="game-name">Jackpot</span><span class="game-limit">1 / day</span></button>
+<button class="game-btn" onclick="playWordChain()"><span class="game-icon"><span class="ui-icon ui-i-letters"></span></span><span class="game-name">Word Chain</span><span class="game-limit">2 / day</span></button>
+<button class="game-btn" onclick="playDailyChallenge()"><span class="game-icon"><span class="ui-icon ui-i-star"></span></span><span class="game-name">Daily</span><span class="game-limit">1 / day</span></button>
 </div>
 <div class="game-result" id="gameResult"></div>
 </section>
@@ -552,7 +567,7 @@ body[data-page="emlee"] #chatScreen .feature-back,body[data-page="live"] #liveCh
   <button type="button" onclick="openFollowList(getSavedUsername(),'followers')"><strong id="ownFollowersCount">0</strong><span>followers</span></button>
   <button type="button" onclick="openFollowList(getSavedUsername(),'following')"><strong id="ownFollowingCount">0</strong><span>following</span></button>
 </div>
-<button class="personal-chat-btn" onclick="openFeature('gamesScreen')">🎮 Games</button>
+<button class="personal-chat-btn" onclick="openFeature('gamesScreen')"><span class="ui-icon ui-i-game"></span> Games</button>
 </section>
 </div></div>
 
@@ -601,7 +616,7 @@ body[data-page="emlee"] #chatScreen .feature-back,body[data-page="live"] #liveCh
 <!-- ranks -->
 <div class="modal" id="rankModal"><div class="modal-content rank-modal-content">
 <button class="rank-top-back" type="button" onclick="closeRankModal()" aria-label="back">←</button>
-<h3>🏆 community ranks</h3><div class="modal-text" style="margin-bottom:10px">top emLee community members</div>
+<h3><span class="ui-icon ui-i-rank"></span> community ranks</h3><div class="modal-text" style="margin-bottom:10px">top emLee community members</div>
 <div id="fullRankList"><div style="color:#817788;font-size:12px;padding:15px">loading...</div></div>
 <button class="close-btn" onclick="closeRankModal()">Close</button>
 </div></div>
@@ -667,6 +682,7 @@ function openFeature(id){
   else if(id==="chatListScreen")document.body.dataset.page="messages";
   const inner=s.querySelector(".feature-screen-inner");if(inner)inner.scrollTop=0;
   if(id==="chatListScreen")renderChatList();
+  if(id==="suggestionsScreen")loadCommunitySuggestions();
   if(id==="liveChatScreen"){
     loadLiveChat();
     setTimeout(scrollLiveBottom,60);
@@ -787,11 +803,11 @@ async function sendMessage(){
   try{
     const response=await apiRequest("/chat",{method:"POST",body:JSON.stringify({message:text,username})});
     removeMessage(typing);
-    const reply=response.reply||response.message||response.text||response.data?.reply||"hmm... brain loading 😭";
+    const reply=response.reply||response.message||response.text||response.data?.reply||"hmm... brain loading ";
     appendMessage(typeof reply==="string"?reply:JSON.stringify(reply),"bot");
     if(response.user)currentUser={...currentUser,...response.user};
     await loadProfile();
-  }catch(e){console.error("emLee Chat Error:",e);removeMessage(typing);appendMessage("connection scene aan... pinne try cheyy 😭","bot")}
+  }catch(e){console.error("emLee Chat Error:",e);removeMessage(typing);appendMessage("connection scene aan... pinne try cheyy ","bot")}
   finally{isSending=false;$("sendButton").disabled=false;input.focus()}
 }
 function appendMessage(text,cls){
@@ -853,31 +869,31 @@ async function saveOwnProfile(){
 async function claimReward(){
   const username=getSavedUsername();if(!username)return showEntry();
   $("claimButton").disabled=true;$("rewardResult").textContent="claiming your reward...";
-  try{const d=await apiRequest("/reward",{method:"POST",body:JSON.stringify({username})});$("rewardResult").textContent=d.message||"daily reward claimed! 🎉";await loadProfile();await loadLeaderboard()}
+  try{const d=await apiRequest("/reward",{method:"POST",body:JSON.stringify({username})});$("rewardResult").textContent=d.message||"daily reward claimed! celebrate";await loadProfile();await loadLeaderboard()}
   catch(e){$("rewardResult").textContent=e.message||"reward unavailable right now."}
   finally{$("claimButton").disabled=false}
 }
 
-function dailyMood(){const moods=[["🌙 soft & sleepy","late night energy, calm chats & tiny chaos"],["⚡ slightly chaotic","good vibes, random jokes and no serious business"],["💗 warm & cozy","slow chats, soft energy and comfy community vibes"],["🎀 cute chaos","tiny drama, big laughs and questionable decisions"],["✨ main character","today feels like a little emLee moment"]];const n=Math.floor(new Date().getDate()/1)%moods.length;$("dailyMoodText").textContent=moods[n][0];$("dailyMoodSub").textContent=moods[n][1]}
+function dailyMood(){const moods=[["mood soft & sleepy","late night energy, calm chats & tiny chaos"],["fast slightly chaotic","good vibes, random jokes and no serious business"],["heart warm & cozy","slow chats, soft energy and comfy community vibes"],["accent cute chaos","tiny drama, big laughs and questionable decisions"],["spark main character","today feels like a little emLee moment"]];const n=Math.floor(new Date().getDate()/1)%moods.length;$("dailyMoodText").textContent=moods[n][0];$("dailyMoodSub").textContent=moods[n][1]}
 function getStreak(){const key="emlee_streak_"+getSavedUsername(),now=new Date();now.setHours(0,0,0,0);let d={count:0,last:""};try{d=JSON.parse(localStorage.getItem(key)||"{}" )||d}catch{}const last=d.last?new Date(d.last):null;if(last){last.setHours(0,0,0,0);const diff=Math.round((now-last)/86400000);if(diff===0)return d.count||0;if(diff===1)d.count=Number(d.count||0)+1;else d.count=1}else d.count=1;d.last=now.toISOString();localStorage.setItem(key,JSON.stringify(d));return d.count}
-function getTitle(streak){const m=new Date().getMonth();const seasonal=m===11||m===0?"❄️ winter soul":m>=5&&m<=7?"☀️ summer soul":m===9?"🎃 october soul":null;if(streak>=30)return"🌙 night legend";if(streak>=14)return"🔥 regular";if(streak>=7)return"✨ familiar face";if(streak>=3)return"💗 returning";return seasonal||"🌱 newcomer"}
-function updateUniqueUI(){const streak=getStreak(),title=getTitle(streak);$("streakPill").textContent="🔥 "+streak+" day streak";$("memoryStreak").textContent=streak;$("ownProfileTitle").textContent=title;$("viewerProfileTitle").textContent=title;const first=localStorage.getItem("emlee_first_seen");if(!first)localStorage.setItem("emlee_first_seen",Date.now());const days=Math.max(1,Math.floor((Date.now()-Number(localStorage.getItem("emlee_first_seen")))/86400000)+1);$("memoryDays").textContent=days;const usage=getGameUsage();$("memoryGames").textContent=Object.values(usage).reduce((a,b)=>a+Number(b||0),0)}
+function getTitle(streak){const m=new Date().getMonth();const seasonal=m===11||m===0?"calm️ winter soul":m>=5&&m<=7?"day️ summer soul":m===9?"surprise october soul":null;if(streak>=30)return"mood night legend";if(streak>=14)return"streak regular";if(streak>=7)return"spark familiar face";if(streak>=3)return"heart returning";return seasonal||"growth newcomer"}
+function updateUniqueUI(){const streak=getStreak(),title=getTitle(streak);$("streakPill").textContent="streak "+streak+" day streak";$("memoryStreak").textContent=streak;$("ownProfileTitle").textContent=title;$("viewerProfileTitle").textContent=title;const first=localStorage.getItem("emlee_first_seen");if(!first)localStorage.setItem("emlee_first_seen",Date.now());const days=Math.max(1,Math.floor((Date.now()-Number(localStorage.getItem("emlee_first_seen")))/86400000)+1);$("memoryDays").textContent=days;const usage=getGameUsage();$("memoryGames").textContent=Object.values(usage).reduce((a,b)=>a+Number(b||0),0)}
 function updateRewardCountdown(){const n=new Date(),next=new Date(n);next.setHours(24,0,0,0);const ms=next-n,h=Math.floor(ms/3600000),m=Math.floor((ms%3600000)/60000),sec=Math.floor((ms%60000)/1000);const e=$("rewardCountdown");if(e)e.textContent="next daily reward in "+h+"h "+m+"m "+sec+"s"}
-function claimMysteryDrop(){const key="emlee_drop_"+getSavedUsername()+"_"+todayKey();if(localStorage.getItem(key)){$("dropText").textContent="already opened today — come back tomorrow ✨";return}const drops=[["🌸 tiny blessing","+5 points energy"],["🎀 lucky moment","+10 points energy"],["🌙 sleepy badge","you found today's soft drop"],["🔥 chaos token","today you are officially lucky"]];const d=drops[Math.floor(Math.random()*drops.length)];localStorage.setItem(key,JSON.stringify(d));$("dropTitle").textContent=d[0];$("dropText").textContent=d[1];$("dropButton").textContent="opened ✓";$("dropButton").disabled=true}
+function claimMysteryDrop(){const key="emlee_drop_"+getSavedUsername()+"_"+todayKey();if(localStorage.getItem(key)){$("dropText").textContent="already opened today — come back tomorrow spark";return}const drops=[["soft tiny blessing","+5 points energy"],["accent lucky moment","+10 points energy"],["mood sleepy badge","you found today's soft drop"],["streak chaos token","today you are officially lucky"]];const d=drops[Math.floor(Math.random()*drops.length)];localStorage.setItem(key,JSON.stringify(d));$("dropTitle").textContent=d[0];$("dropText").textContent=d[1];$("dropButton").textContent="opened ✓";$("dropButton").disabled=true}
 function reactToMessage(btn,emoji){if(!btn)return;btn.textContent=emoji+" ✓";btn.disabled=true}
-function secretEmLee(){const k="emlee_secret_found";if(localStorage.getItem(k))return;localStorage.setItem(k,"1");const t=$("dailyMoodText");if(t){t.textContent="🪄 you found a secret";$("dailyMoodSub").textContent="emLee has a tiny hidden side quest for you ✨"}}
+function secretEmLee(){const k="emlee_secret_found";if(localStorage.getItem(k))return;localStorage.setItem(k,"1");const t=$("dailyMoodText");if(t){t.textContent="daily drop you found a secret";$("dailyMoodSub").textContent="emLee has a tiny hidden side quest for you spark"}}
 
 function todayKey(){const d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
 function getGameUsage(){try{return JSON.parse(localStorage.getItem("emlee_game_usage_"+getSavedUsername()+"_"+todayKey())||"{}")}catch{return {}}}
 function saveGameUsage(u){localStorage.setItem("emlee_game_usage_"+getSavedUsername()+"_"+todayKey(),JSON.stringify(u))}
-function canPlayGame(game){const u=getGameUsage(),used=Number(u[game]||0);if(used>=GAME_LIMITS[game]){$("gameResult").textContent="daily limit reached. come back tomorrow ✨";return false}u[game]=used+1;saveGameUsage(u);return true}
+function canPlayGame(game){const u=getGameUsage(),used=Number(u[game]||0);if(used>=GAME_LIMITS[game]){$("gameResult").textContent="daily limit reached. come back tomorrow spark";return false}u[game]=used+1;saveGameUsage(u);return true}
 async function rewardGame(game,reward,description){
   try{const d=await apiRequest("/game-reward",{method:"POST",body:JSON.stringify({username:getSavedUsername(),game,reward})});$("gameResult").textContent=d.message||description;await loadProfile();await loadLeaderboard()}
   catch(e){$("gameResult").textContent=description}
 }
-function playFlip(){if(!canPlayGame("flip"))return;const heads=Math.random()>.5,reward=heads?10:0;$("gameResult").textContent="🪙 "+(heads?"heads!":"tails!");if(reward)rewardGame("flip",reward,"🪙 heads! +10 points")}
-function playGuess(){if(!canPlayGame("guess"))return;guessNumber=Math.floor(Math.random()*10)+1;openGameModal("🔢 Guess Number",`<p class="modal-text">guess a number between 1 and 10.</p><input id="guessInput" type="number" min="1" max="10" placeholder="your guess" style="width:100%;padding:13px;border-radius:12px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.06);color:white;outline:none;text-align:center"><button class="enter-btn" onclick="checkGuess()">Guess</button>`)}
-function checkGuess(){const v=Number($("guessInput").value);if(!v)return;if(v===guessNumber){closeGameModal();$("gameResult").textContent="🎉 perfect guess!";rewardGame("guess",25,"🎉 perfect guess! +25 points")}else openGameModal("😅 Not quite",`<p class="modal-text">the number was ${guessNumber}. try again tomorrow!</p>`)}
+function playFlip(){if(!canPlayGame("flip"))return;const heads=Math.random()>.5,reward=heads?10:0;$("gameResult").textContent="flip "+(heads?"heads!":"tails!");if(reward)rewardGame("flip",reward,"flip heads! +10 points")}
+function playGuess(){if(!canPlayGame("guess"))return;guessNumber=Math.floor(Math.random()*10)+1;openGameModal("numbers Guess Number",`<p class="modal-text">guess a number between 1 and 10.</p><input id="guessInput" type="number" min="1" max="10" placeholder="your guess" style="width:100%;padding:13px;border-radius:12px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.06);color:white;outline:none;text-align:center"><button class="enter-btn" onclick="checkGuess()">Guess</button>`)}
+function checkGuess(){const v=Number($("guessInput").value);if(!v)return;if(v===guessNumber){closeGameModal();$("gameResult").textContent="celebrate perfect guess!";rewardGame("guess",25,"celebrate perfect guess! +25 points")}else openGameModal(" Not quite",`<p class="modal-text">the number was ${guessNumber}. try again tomorrow!</p>`)}
 const QUIZ_QUESTIONS=[
 ["emLee community inte creator aara?",["lee","emLee","srrghhae"],0],
 ["emLee evide aanu live aayi chat cheyyunne?",["emLee community","moon","school"],0],
@@ -889,9 +905,9 @@ const QUIZ_QUESTIONS=[
 ["top community members evide kaanam?",["leaderboard","footer","privacy page"],0]
 ];
 let currentQuiz=null;
-function playQuiz(){if(!canPlayGame("quiz"))return;const q=QUIZ_QUESTIONS[Math.floor(Math.random()*QUIZ_QUESTIONS.length)];currentQuiz=q;openGameModal("🧠 Manglish Quiz",`<p class="modal-text">${escapeHTML(q[0])}</p>`+q[1].map((x,i)=>`<button class="modal-option" onclick="quizAnswer(${i})">${escapeHTML(x)}</button>`).join(""))}
-function quizAnswer(i){if(!currentQuiz)return;const correct=i===currentQuiz[2];closeGameModal();$("gameResult").textContent=correct?"🎉 correct! +25 points":"😅 wrong!";if(correct)rewardGame("quiz",25,"🎉 correct! +25 points");currentQuiz=null}
-function spinWheel(){if(!canPlayGame("wheel"))return;const rewards=[0,10,25,50,100],r=rewards[Math.floor(Math.random()*rewards.length)];$("gameResult").textContent=r?"🎡 +"+r+" points":"🎡 good luck next time";if(r)rewardGame("wheel",r,"🎡 +"+r+" points")}
+function playQuiz(){if(!canPlayGame("quiz"))return;const q=QUIZ_QUESTIONS[Math.floor(Math.random()*QUIZ_QUESTIONS.length)];currentQuiz=q;openGameModal("quiz Manglish Quiz",`<p class="modal-text">${escapeHTML(q[0])}</p>`+q[1].map((x,i)=>`<button class="modal-option" onclick="quizAnswer(${i})">${escapeHTML(x)}</button>`).join(""))}
+function quizAnswer(i){if(!currentQuiz)return;const correct=i===currentQuiz[2];closeGameModal();$("gameResult").textContent=correct?"celebrate correct! +25 points":" wrong!";if(correct)rewardGame("quiz",25,"celebrate correct! +25 points");currentQuiz=null}
+function spinWheel(){if(!canPlayGame("wheel"))return;const rewards=[0,10,25,50,100],r=rewards[Math.floor(Math.random()*rewards.length)];$("gameResult").textContent=r?"race +"+r+" points":"race good luck next time";if(r)rewardGame("wheel",r,"race +"+r+" points")}
 function openGameModal(t,h){$("modalTitle").textContent=t;$("modalContent").innerHTML=h;$("gameModal").style.display="flex"}
 function closeGameModal(){$("gameModal").style.display="none"}
 
@@ -912,10 +928,10 @@ async function loadLeaderboard(){
     else{const meObj=list.find(x=>String(x.username).toLowerCase()===me);if(meObj){const idx=list.indexOf(meObj)+1;$("topRank").textContent="#"+idx;$("ownProfileRank").textContent="rank #"+idx}}
   }catch(e){console.error("Leaderboard Error:",e);c.innerHTML='<div style="text-align:center;color:#ef4444;padding:15px;font-size:12px">failed to load leaderboard</div>'}
 }
-function appendRankRow(c,p,rank){const row=document.createElement("div");row.className="leader-row rank-click-row";row.onclick=()=>openViewerProfile(p.username);const badge=rank===1?"🥇":rank===2?"🥈":rank===3?"🥉":"#"+rank;row.innerHTML=`<div class="leader-left"><div class="rank-badge">${badge}</div><div class="leader-name">${escapeHTML(p.username)}</div></div><div class="leader-points">${p.points.toLocaleString()} PTS</div>`;c.appendChild(row)}
+function appendRankRow(c,p,rank){const row=document.createElement("div");row.className="leader-row rank-click-row";row.onclick=()=>openViewerProfile(p.username);const cls=rank===1?" rank-gold":rank===2?" rank-silver":rank===3?" rank-bronze":" rank-white";const badge="#"+rank;const pfp=p.pfp||"./pfp.JPG";row.innerHTML=`<div class="leader-left"><div class="rank-badge${cls}">${badge}</div><img class="rank-avatar" src="${escapeHTML(pfp)}" alt="" onerror="this.onerror=null;this.src='./pfp.JPG'"><div class="leader-name">${escapeHTML(p.username)}</div></div><div class="leader-points">${p.points.toLocaleString()} PTS</div>`;c.appendChild(row)}
 async function openRankModal(){
   $("rankModal").style.display="flex";const c=$("fullRankList");c.innerHTML='<div style="color:#817788;font-size:12px;padding:15px">loading ranks...</div>';
-  try{if(!leaderboardCache.length)await loadLeaderboard();if(!leaderboardCache.length){c.innerHTML='<div style="color:#817788;font-size:12px;padding:15px">no community ranks yet.</div>';return}c.innerHTML="";leaderboardCache.forEach((p,i)=>{const r=document.createElement("div");r.className="rank-modal-row rank-click-row";r.onclick=()=>openViewerProfile(p.username);const rank=i+1,medal=rank===1?"🥇":rank===2?"🥈":rank===3?"🥉":"#"+rank;r.innerHTML=`<div class="rank-modal-left"><div class="rank-modal-position">${medal}</div><div class="rank-modal-name">${escapeHTML(p.username)}</div></div><div class="rank-modal-points">${Number(p.points||0).toLocaleString()} PTS</div>`;c.appendChild(r)})}catch(e){c.innerHTML='<div style="color:#ef4444;font-size:12px;padding:15px">leaderboard unavailable.</div>'}
+  try{if(!leaderboardCache.length)await loadLeaderboard();if(!leaderboardCache.length){c.innerHTML='<div style="color:#817788;font-size:12px;padding:15px">no community ranks yet.</div>';return}c.innerHTML="";leaderboardCache.forEach((p,i)=>{const r=document.createElement("div");r.className="rank-modal-row rank-click-row";r.onclick=()=>openViewerProfile(p.username);const rank=i+1,cls=rank===1?" rank-gold":rank===2?" rank-silver":rank===3?" rank-bronze":" rank-white";const pfp=p.pfp||"./pfp.JPG";r.innerHTML=`<div class="rank-modal-left"><div class="rank-modal-position${cls}">#${rank}</div><img class="rank-avatar" src="${escapeHTML(pfp)}" alt="" onerror="this.onerror=null;this.src='./pfp.JPG'"><div class="rank-modal-name">${escapeHTML(p.username)}</div></div><div class="rank-modal-points">${Number(p.points||0).toLocaleString()} PTS</div>`;c.appendChild(r)})}catch(e){c.innerHTML='<div style="color:#ef4444;font-size:12px;padding:15px">leaderboard unavailable.</div>'}
 }
 function closeRankModal(){$("rankModal").style.display="none"}
 
@@ -940,7 +956,7 @@ function appendLiveMessage(username,message,id="",optimistic=false,pfp="",create
   let body=escapeHTML(message),replyUser="",replyText=body;
   const lines=String(message||"").split("\n");
   if(lines.length>1){
-    const first=lines[0].replace(/^↪\s*/,"").trim();
+    const first=lines[0].replace(/^reply\s*/,"").trim();
     if(first){replyUser=first.replace(/:\s*$/,"");replyText=escapeHTML(lines.slice(1).join("\n"));}
   }
   const replyMarkup=replyUser?`<span class="live-reply-user">replying to ${escapeHTML(replyUser)}</span><span class="live-reply-text">${replyText}</span>`:body;
@@ -956,7 +972,7 @@ async function loadLiveChat(){
   if(liveLoadBusy)return;liveLoadBusy=true;
   try{
     const data=await apiRequest("/live-chat",{method:"GET"}),messages=pickArray(data,["messages","chat","data"]),c=$("liveMessages");
-    if(!liveMessagesLoaded){c.innerHTML="";liveMessageIds=new Set();if(!messages.length)appendLiveSystem("be the first one to say something ✨");else [...messages].sort((a,b)=>messageTimeMs(a)-messageTimeMs(b)).forEach(m=>appendLiveMessage(m.username||"guest",m.message||m.text||"",m.id||getLiveMessageKey(m),false,m.pfp||m.avatar||m.avatarUrl||"",m.createdAt||m.created_at||""));liveMessagesLoaded=true;requestAnimationFrame(scrollLiveBottom);return}
+    if(!liveMessagesLoaded){c.innerHTML="";liveMessageIds=new Set();if(!messages.length)appendLiveSystem("be the first one to say something spark");else [...messages].sort((a,b)=>messageTimeMs(a)-messageTimeMs(b)).forEach(m=>appendLiveMessage(m.username||"guest",m.message||m.text||"",m.id||getLiveMessageKey(m),false,m.pfp||m.avatar||m.avatarUrl||"",m.createdAt||m.created_at||""));liveMessagesLoaded=true;requestAnimationFrame(scrollLiveBottom);return}
     messages.forEach(m=>{const id=m.id?String(m.id):getLiveMessageKey(m);if(liveMessageIds.has(id)||findExistingLiveMessage(m))return;showFakeTyping(m.username);setTimeout(()=>{appendLiveMessage(m.username||"guest",m.message||m.text||"",id,false,m.pfp||m.avatar||m.avatarUrl||"",m.createdAt||m.created_at||"");scrollLiveBottom()},650);liveMessageIds.add(id)})
   }catch(e){console.error("Live Chat Error:",e);if(!liveMessagesLoaded){$("liveMessages").innerHTML="";appendLiveSystem("live room connection unavailable");}}
   finally{liveLoadBusy=false}
@@ -1090,17 +1106,16 @@ function updateUnread(){
 
 async function loadFollowNotifications(){
   const box=$("chatNotifications"),me=getSavedUsername();if(!box||!me)return;
-  try{const d=await apiRequest("/followers?username="+encodeURIComponent(me));const followers=pickArray(d,["users","data"]).map(u=>({username:String(u.username||u.name||"").trim(),isFollowing:!!u.isFollowing})).filter(u=>u.username);followNotificationCount=followers.length;updateUnread();if(!followers.length){box.style.display="none";box.innerHTML="";return;}const show=followers.slice(-6).reverse();box.style.display="flex";box.innerHTML=`<strong>notifications</strong><div class="notification-list">${show.map(n=>`<div class="notification-chip"><span>${escapeHTML(n.username)} followed you</span>${n.isFollowing?`<button type="button" class="notification-follow following" onclick="toggleFollow('${escapeHTML(n.username)}')">following</button>`:`<button type="button" class="notification-follow" onclick="toggleFollow('${escapeHTML(n.username)}')">follow back</button>`}</div>`).join("")}</div>`;}catch(e){console.error("follow notifications unavailable",e);box.style.display="none";}
+  try{const d=await apiRequest("/followers?username="+encodeURIComponent(me));const followers=pickArray(d,["users","data"]).map(u=>({username:String(u.username||u.name||"").trim(),isFollowing:!!u.isFollowing})).filter(u=>u.username);followNotificationCount=followers.length;updateUnread();if(!followers.length){box.style.display="none";box.innerHTML="";return;}const show=followers.slice(-6).reverse();box.style.display="flex";box.innerHTML=`<strong><span class="ui-icon ui-i-bell"></span> notifications</strong><div class="notification-list">${show.map(n=>`<div class="notification-chip"><span>${escapeHTML(n.username)} followed you</span>${n.isFollowing?`<button type="button" class="notification-follow following" onclick="toggleFollow('${escapeHTML(n.username)}')">following</button>`:`<button type="button" class="notification-follow" onclick="toggleFollow('${escapeHTML(n.username)}')">follow back</button>`}</div>`).join("")}</div>`;}catch(e){console.error("follow notifications unavailable",e);box.style.display="none";}
 }
 async function loadNotificationBadge(){
-  const me=getSavedUsername(),badge=$("notifyBadge");if(!me||!badge)return;
-  try{const d=await apiRequest("/followers?username="+encodeURIComponent(me));const n=pickArray(d,["users","data"]).length;badge.textContent=n>99?'99+':String(n);badge.classList.toggle('show',n>0);}catch(e){badge.classList.remove('show');}
+  const me=getSavedUsername();
+  if(!me)return;
+  try{const d=await apiRequest("/followers?username="+encodeURIComponent(me));followNotificationCount=pickArray(d,["users","data"]).length;updateUnread();}catch(e){followNotificationCount=0;updateUnread();}
 }
 async function openNotifications(){
-  openFeature('notificationsScreen');
-  const list=$("notificationList"),me=getSavedUsername();if(!list||!me)return;
-  list.innerHTML='<div class="private-empty">loading notifications...</div>';
-  try{const d=await apiRequest('/followers?username='+encodeURIComponent(me));const users=pickArray(d,['users','data']);if(!users.length){list.innerHTML='<div class="private-empty">no notifications yet...</div>';return;}list.innerHTML=users.slice().reverse().map(u=>`<div class="notification-page-item"><img src="${escapeHTML(u.pfp||'./pfp.JPG')}" onerror="this.src='./pfp.JPG'" alt=""><div style="flex:1;min-width:0;cursor:pointer" onclick="openViewerProfile('${escapeHTML(u.username||u.name||'')}','${escapeHTML(u.pfp||'')}')"><strong>${escapeHTML(u.username||u.name||'someone')} followed you</strong><small>tap to open profile</small></div><button type="button" class="notification-follow ${u.isFollowing?'following':''}" onclick="toggleFollow('${escapeHTML(u.username||u.name||'')}')">${u.isFollowing?'following':'follow back'}</button></div>`).join('');await loadNotificationBadge();}catch(e){list.innerHTML='<div class="private-empty">notifications unavailable right now.</div>';}
+  openFeature("chatListScreen");
+  await loadFollowNotifications();
 }
 
 
@@ -1108,15 +1123,6 @@ async function renderChatList(){
   updateUnread();
   const c=$("chatList");
   if(!c)return;
-  let live=c.querySelector('.chat-live-room');
-  if(!live){
-    c.innerHTML="";
-    live=document.createElement("button");
-    live.className="chat-list-item chat-live-room";
-    live.innerHTML=`<img class="chat-live-icon" src="./live.jpg" alt="" onerror="this.onerror=null;this.src='./emlee-character.PNG'"><div><strong>live chat room</strong><small><span class="live-status-dot"></span> everyone can chat here · live now</small></div><span class="chat-badge">open</span>`;
-    live.onclick=()=>openFeature("liveChatScreen");
-    c.appendChild(live);
-  }
   await loadPrivateChatList();
   await loadFollowNotifications();
 }
@@ -1195,7 +1201,7 @@ function openPersonalChat(name,pfp=""){
 }
 function closePersonalChat(){$("personalChatScreen").classList.remove("active");activePrivateChatUser="";activePrivateChatPfp="./pfp.JPG";privateChatMessages=[];clearInterval(privateChatTimer);privateChatTimer=null;document.body.style.overflow="auto";openFeature("chatListScreen")}
 async function sendPersonalChatMessage(){
-  const input=$("personalChatInput"),button=$("personalChatSendButton"),typed=input.value.trim(),from=getSavedUsername(),to=activePrivateChatUser;if(!typed||!from||!to)return;const message=privateReplyTarget?`↪ ${privateReplyTarget.from}: ${privateReplyTarget.message.slice(0,100)}\n${typed}`:typed;clearPrivateReply();
+  const input=$("personalChatInput"),button=$("personalChatSendButton"),typed=input.value.trim(),from=getSavedUsername(),to=activePrivateChatUser;if(!typed||!from||!to)return;const message=privateReplyTarget?`reply ${privateReplyTarget.from}: ${privateReplyTarget.message.slice(0,100)}\n${typed}`:typed;clearPrivateReply();
   input.value="";registerChat(to);const optimistic=normalizePrivateMessage({id:"temp-"+Date.now(),from,to,message});privateChatMessages.push(optimistic);renderPrivateChatMessages(privateChatMessages);button.disabled=true;
   try{
     const d=await apiRequest("/private-chat",{method:"POST",body:JSON.stringify({from,to,message})});
@@ -1316,10 +1322,10 @@ async function loadErrorLogs(){try{const d=await apiRequest('/admin/logs');$('er
 async function loadAdminInbox(){try{const d=await apiRequest('/admin/inbox');const list=(d.messages||[]).slice(0,20);$('adminInboxList').innerHTML=list.map(m=>{const from=m.sender||m.from||'viewer',to=m.receiver||m.to||'';return `<div class="content-item"><b>${escapeHTML(from)} → ${escapeHTML(to)}</b>${escapeHTML(m.message||m.text||'')}<div style="margin-top:7px"><button class="pill-btn" onclick="adminReply('${escapeHTML(from)}')">reply</button></div></div>`}).join('')||'<div class="content-item">no private messages yet.</div>'}catch(e){$('adminInboxList').innerHTML='<div class="content-item">inbox unavailable.</div>'}}
 async function adminReply(to){const text=prompt('reply to '+to);if(!text)return;try{await apiRequest('/private-chat',{method:'POST',body:JSON.stringify({from:getSavedUsername(),to,message:text})});loadAdminInbox()}catch(e){alert(e.message)}}
 async function checkLiveManager(){try{const d=await apiRequest('/admin/manager');alert(`youtube: ${d.youtube?.live?'live':'offline'}\nbot: ${d.botAction||'n/a'}`)}catch(e){alert(e.message)}}
-function playJackpot(){if(!canPlayGame('jackpot'))return;const r=Math.random();const reward=r>.98?100:r>.8?50:r>.5?20:0;$('gameResult').textContent=reward?`🎰 jackpot +${reward}!`:'🎰 no jackpot';if(reward)rewardGame('jackpot',reward,'🎰 jackpot!')}
-function playWordChain(){if(!canPlayGame('word'))return;const words=['apple','elephant','tiger','rabbit','tree','eagle'];const w=words[Math.floor(Math.random()*words.length)];openGameModal('🔤 word chain',`<p class="modal-text">continue with a word starting with <b>${w.slice(-1).toUpperCase()}</b></p><input class="entry-input" id="wordAnswer" placeholder="type your word"><button class="enter-btn" onclick="finishWordChain()">submit</button>`)}
-function finishWordChain(){const v=$('wordAnswer').value.trim();closeGameModal();if(v){$('gameResult').textContent='🔤 nice chain! +20';rewardGame('word',20,'🔤 nice chain! +20 points')}}
-function playDailyChallenge(){if(!canPlayGame('daily'))return;const reward=50;$('gameResult').textContent='🌟 daily challenge complete! +50';rewardGame('daily',reward,'🌟 daily challenge +50 points')}
+function playJackpot(){if(!canPlayGame('jackpot'))return;const r=Math.random();const reward=r>.98?100:r>.8?50:r>.5?20:0;$('gameResult').textContent=reward?`jackpot jackpot +${reward}!`:'jackpot no jackpot';if(reward)rewardGame('jackpot',reward,'jackpot jackpot!')}
+function playWordChain(){if(!canPlayGame('word'))return;const words=['apple','elephant','tiger','rabbit','tree','eagle'];const w=words[Math.floor(Math.random()*words.length)];openGameModal('word word chain',`<p class="modal-text">continue with a word starting with <b>${w.slice(-1).toUpperCase()}</b></p><input class="entry-input" id="wordAnswer" placeholder="type your word"><button class="enter-btn" onclick="finishWordChain()">submit</button>`)}
+function finishWordChain(){const v=$('wordAnswer').value.trim();closeGameModal();if(v){$('gameResult').textContent='word nice chain! +20';rewardGame('word',20,'word nice chain! +20 points')}}
+function playDailyChallenge(){if(!canPlayGame('daily'))return;const reward=50;$('gameResult').textContent='daily daily challenge complete! +50';rewardGame('daily',reward,'daily daily challenge +50 points')}
 async function fetchFollowStatus(username){try{return await apiRequest('/follow-status?username='+encodeURIComponent(username))}catch(e){return {followers:0,following:0,isFollowing:false,followsYou:false}}}
 async function toggleFollow(username,button){
   const target=String(username||'').trim(); if(!target)return;
